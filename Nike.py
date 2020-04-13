@@ -1,8 +1,8 @@
 import pyautogui
 import time
 
-out_img = pyautogui.locateCenterOnScreen('./no.png')
-stock_img = pyautogui.locateCenterOnScreen('./yesnike.PNG')
+out_img = pyautogui.locateCenterOnScreen('./img/no.png')
+stock_img = pyautogui.locateCenterOnScreen('./img/yesnike.PNG')
 
 while True:
     time.sleep(3)
